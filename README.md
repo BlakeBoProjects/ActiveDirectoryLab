@@ -1,25 +1,26 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/LINKHERE)
+ ### [Video Version (YouTube)](https://youtu.be/v58EIkizDns)
 
 <h2>Description</h2>
-Description here.
+Created 2 virtual machines, a domain controller running Active Directory and a client running Windows 10. Set up Network Address Translation and a DHCP server to allow the client to access the internet through the domain controller. Created admin and user accounts in Active Directory, put them in security groups, enforced group policy, mapped network drives, and set up Remote Desktop and Remote Assistance. 
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Programs Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Active Directory</b> 
+- <b>RSAT Tools</b>
+- <b>Oracle VirtualBox</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
 - <b>Windows Server 2022
 
-<h2>Program walk-through:</h2>
+<h2>Project Walk-through:</h2>
 
-# Upload Screenshots (below) to imgur.com and link them
+<!-- # Upload Screenshots (below) to imgur.com and link them --!>
 
 <p align="center">
 (filler) Installing Active Directory and promoting the Windows Server machine to Domain Controller : <br/>
