@@ -6,7 +6,6 @@
 Created 2 virtual machines, a domain controller running Active Directory and a client running Windows 10. Set up Network Address Translation and a DHCP server to allow the client to access the internet through the domain controller. Created admin and user accounts in Active Directory, put them in security groups, enforced group policy, mapped network drives, and set up Remote Desktop and Remote Assistance. 
 <br />
 
-
 <h2>Programs Used</h2>
 
 - <b>Active Directory</b> 
@@ -20,15 +19,17 @@ Created 2 virtual machines, a domain controller running Active Directory and a c
 
 <h2>Project Walk-through:</h2>
 
-<p align="center">
-(filler) Installing Active Directory and promoting the Windows Server machine to Domain Controller : <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Created 2 virtual machines, a domain controller (DC) running Windows Server and a client running Windows 10 (Win10). Configured the domain controller to have 2 NICs, one leading out to the internet, and the other for the internal network. The Windows 10 client only had a single network adapter, connecting to the internal network; it connected through the DC to access the internet.
+<br/>
+<img src="https://i.imgur.com/brVHbll.png" height="80%" width="80%" alt="Created 2 VMs"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Installed Active Directory on the "DC" machine, promoted it to domain controller, and created a new forest, "domain.com". <br/>
+<img src="https://i.imgur.com/BTL35dA.png" height="80%" width="80%" alt="Installed AD"/>
 <br />
 <br />
+
 Enter the number of passes: <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
