@@ -20,8 +20,6 @@ Created 2 virtual machines, a domain controller running Active Directory and a c
 
 <h2>Project Walk-through:</h2>
 
-<!-- # Upload Screenshots (below) to imgur.com and link them --!>
-
 <p align="center">
 (filler) Installing Active Directory and promoting the Windows Server machine to Domain Controller : <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
